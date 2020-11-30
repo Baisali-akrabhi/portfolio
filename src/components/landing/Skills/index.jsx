@@ -1,10 +1,9 @@
 import React from 'react';
 import { Container } from 'components/common';
 import stack from 'assets/illustrations/coder.svg';
-import { FaPython, FaCuttlefish, FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaNode, FaAngular, FaJava, FaSass, FaReact } from 'react-icons/fa';
+import { FaPython, FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaNode, FaAngular, FaJava, FaSass, FaReact } from 'react-icons/fa';
 import { SiRedux, SiHeroku, SiPostman, SiFirebase } from 'react-icons/si';
-import { DiMysql, DiMongodb, DiDart, DiPhp, DiGit, DiLinux } from 'react-icons/di';
-import { RiFlutterLine } from 'react-icons/ri';
+import { DiMysql, DiMongodb, DiGit } from 'react-icons/di';
 import { GrGatsbyjs } from 'react-icons/gr';
 import { Fade } from 'react-reveal';
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
