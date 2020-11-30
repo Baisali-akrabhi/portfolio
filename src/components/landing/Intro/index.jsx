@@ -37,8 +37,7 @@ export const Intro = () => {
               </h2>
               <h3>{greeting}!</h3>
               <p>
-                I am a Full Stack developer with industry experience building websites and web applications. My field of
-                interest includes but not limited to Web Development, Scalability, Machine Learning/AI, Data Science.
+              I am a Web developer building websites and mobile applications. And also have some idea about the backend. My field of interest includes but not limited to Web Development, Scalability, Machine Learning/AI.
               </p>
               <div className="button-greeting-div">
                 <a href="mailto:baisali.pradhan@infoviz.co">

@@ -1,12 +1,14 @@
 import React from 'react';
 import { Container } from 'components/common';
 import { Fade } from 'react-reveal';
-import { Wrapper, WorkExpWrapper } from './styles';
+import stack from 'assets/illustrations/undraw_web_development_w2vv.svg';
+import { Wrapper, WorkExpWrapper, SkillsWrapper, Thumbnail } from './styles';
 
 export const Certifications = () => (
   <Fade bottom duration={1000} distance="20px">
     <Wrapper as={Container} id="certifications">
       <h1>Certifications</h1>
+      <SkillsWrapper>
       <WorkExpWrapper>
       <h3> Introduction to HTML5</h3>
         <h6>
@@ -88,8 +90,13 @@ export const Certifications = () => (
           <br />
           <br />
         </h6>
-       
-      </WorkExpWrapper>
+        </WorkExpWrapper>
+      <Thumbnail>
+          <img src={stack} alt="I’m Baisali and I’m a Web Developer" />
+        </Thumbnail>
+          
+      
+      </SkillsWrapper>
     </Wrapper>
   </Fade>
 );
