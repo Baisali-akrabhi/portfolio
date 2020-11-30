@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'components/common';
 import { Fade } from 'react-reveal';
-import { Wrapper, WorkExpWrapper } from './styles';
+import { Wrapper, WorkExpWrapper } from './Styles';
 
 export const Internship = () => (
   <Fade bottom duration={1000} distance="20px">
