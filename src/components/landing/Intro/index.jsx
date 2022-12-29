@@ -3,7 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Header } from 'components/theme';
 import { Container, Button } from 'components/common';
 import manOnTable from 'assets/illustrations/introlady.svg';
-import Resume from 'assets/Resume/Resume.pdf';
+import Resume from 'assets/Resume.pdf';
 import { Fade } from 'react-reveal';
 import { IntroWrapper, Details, Thumbnail } from './styles';
 import './style.css';
